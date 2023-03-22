@@ -1,0 +1,74 @@
+[
+  {
+    "_id": {
+      "$oid": "5eee651f739f8c674fd736ee"
+    },
+    "name": "Paneer Handi",
+    "image": "paneer-handi.png",
+    "price": "300",
+    "size": "large"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6671a27a66807cf2bea3"
+    },
+    "name": "Dal Makhni",
+    "image": "dal-makhni.png",
+    "price": "200",
+    "size": "small"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6692a27a66807cf2bea4"
+    },
+    "name": "Tomato Soup",
+    "image": "tomato-soup.png",
+    "price": "150",
+    "size": "small"
+  },
+  {
+    "_id": {
+      "$oid": "5eee66a5a27a66807cf2bea5"
+    },
+    "name": "Mix Sabji",
+    "image": "mix-sabji.png",
+    "price": "250",
+    "size": "large"
+  },
+  {
+    "_id": {
+      "$oid": "5eee66c4a27a66807cf2bea6"
+    },
+    "name": "Butter Paneer",
+    "image": "butter-paneer.png",
+    "price": "350",
+    "size": "large"
+  },
+  {
+    "_id": {
+      "$oid": "5eee66cfa27a66807cf2bea7"
+    },
+    "name": "Rice Curry",
+    "image": "curry-rice.png",
+    "price": "250",
+    "size": "small"
+  },
+  {
+    "_id": {
+      "$oid": "5eee66eea27a66807cf2bea8"
+    },
+    "name": "Kofta Gravy",
+    "image": "kofta-gravy.png",
+    "price": "300",
+    "size": "small"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6717a27a66807cf2bea9"
+    },
+    "name": "Chinese Noodles",
+    "image": "noodles.png",
+    "price": "150",
+    "size": "small"
+  }
+]
