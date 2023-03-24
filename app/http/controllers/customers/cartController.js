@@ -36,6 +36,25 @@ function cartController() {
       }
       return res.json({ totalQty: req.session.cart.totalQty });
     },
+    // remove(req, res) {
+    //   let cart = req.session.cart;
+    //   let itemId = req.params.id;
+
+    //   if (cart.items[itemId]) {
+    //     // reduce the totalQty and totalPrice
+    //     cart.totalQty -= cart.items[itemId].qty;
+    //     cart.totalPrice -=
+    //       cart.items[itemId].item.price * cart.items[itemId].qty;
+
+    //     // delete the item from the items object
+    //     delete cart.items[itemId];
+
+    //     // return the updated cart
+    //     return res.json({ cart });
+    //   } else {
+    //     return res.status(400).json({ message: "Item not found in cart" });
+    //   }
+    // },
   };
 }
 module.exports = cartController;
